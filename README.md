@@ -9,8 +9,6 @@ The objective of this project is to design a practical Backup and Disaster Recov
 - OpenMediaVault NAS Server (running in VirtualBox)
 - SMB/CIFS (Network File Sharing Protocol)
 
----
-
 ##  Setup Steps:
 1. **Prepared OpenMediaVault NAS:**
    - Created a shared folder named `BackupStorage`.
@@ -29,8 +27,6 @@ The objective of this project is to design a practical Backup and Disaster Recov
 
 5. **Recovery:**
    - Restored the deleted `ImportantData` by copying it back from BackupStorage.
-
----
 
 ## Conclusion
 This project successfully demonstrated how to set up a backup system using NAS storage, simulate a disaster event, and recover lost data effectively, emphasizing the importance of structured backup and disaster recovery strategies.
